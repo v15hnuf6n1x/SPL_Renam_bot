@@ -1,18 +1,18 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-# 𝐒𝐈𝐆𝐌𝐀 𝐒𝐍𝐎𝐖 𝐁𝐎𝐓
+#  AUTO_RENAME_BOT
 
 
 ### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official Sɪɢᴍᴀ Sɴᴏᴡ Bᴏᴛ)
 
 <p align="center">
-🤖 <a href="https://t.me/SigmaSnowBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=SigmaSnow&message=BOT&color=blue-green"></a> 🤖
+🤖 <a href="https://t.me/AUTO_RENAME_BOT"><img title="Telegram" src="https://img.shields.io/static/v1?label=AUTO_RENAME&message=BOT&color=blue-green"></a> 🤖
 </p>
 
 
 ## Deploy To Render              
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Snowball-0/Sigma-Snow-Bot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/v15hnuf6n1off/Auto_Rename_Bot)
 
 ## Deploy To Railway
 
@@ -20,7 +20,7 @@
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/Snowball-0/Sigma-Snow-Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/v15hnuf6n1off/Auto_Rename_Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 
 
@@ -62,15 +62,16 @@ see_caption - See Your Custom Caption
 del_caption - Delete Custom Caption
 metadata - To Set & Change your metadata code
 set_prefix - To Set Your Prefix
-set_suffix - To Set Your Suffix
-see_prefix - To See Your Prefix
-see_suffix - To See Your Suffix
 del_prefix - Delete Your Prefix
+see_prefix - To See Your Prefix
+set_suffix - To Set Your Suffix
+see_suffix - To See Your Suffix
 del_suffix - Delete Your Suffix
 restart - To Rrstart The Bot (Admin Only)
 status - Check Bot Status (Admin Only)
 broadcast - Send Message To All Users (Admin Only)
 ```
 
-## Created By ❄️
-- `Snowball` 
+##CREATED BY 
+- **MR_V**
+- A SPECIAL THANKS TO **Snowball** 
