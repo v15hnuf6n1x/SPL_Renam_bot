@@ -18,11 +18,11 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kdramaland'),
+            '🔔 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/mr_v_bots'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SnowDevs')
+            '🌨 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+MviX9PK66y4yZTBl')
     ], [
-        InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('🌐 Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
     ]])
     if Config.START_PIC:
@@ -39,7 +39,7 @@ async def rename_start(client, message):
 
     if not Config.STRING_SESSION:
         if file.file_size > 2000 * 1024 * 1024:
-            return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Iꜱ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
+            return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
 
     try:
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
@@ -69,7 +69,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton(
                     '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SnowDevs')
             ], [
-                InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('🌐 Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
             ]])
         )
