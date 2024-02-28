@@ -3,10 +3,10 @@
 #  AUTO_RENAME_BOT
 
 
-### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official Sɪɢᴍᴀ Sɴᴏᴡ Bᴏᴛ)
+### (**Auto_Rename**)
 
 <p align="center">
-🤖 <a href="https://t.me/AUTO_RENAME_BOT"><img title="Telegram" src="https://img.shields.io/static/v1?label=AUTO_RENAME&message=BOT&color=blue-green"></a> 🤖
+<a href="https://t.me/a1p_video_merger_bot"><img title="Telegram" src="https://img.shields.io/static/v1?label=AUTO_RENAME&message=BOT&color=blue-green"></a> 
 </p>
 
 
