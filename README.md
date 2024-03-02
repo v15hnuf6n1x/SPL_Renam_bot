@@ -6,7 +6,7 @@
 ### **RENAMER** **metadata editor**
 
 <p align="center">
-<a href="https://t.me/a1p_video_merger_bot"><img title="Telegram" src="https://img.shields.io/static/v1?label=AUTO_RENAME&message=BOT&color=blue-green"></a> 
+<a href="https://t.me/a1p_video_merger_bot"><img title="Telegram" src="https://img.shields.io/static/v1?label=R3n4mer&message=BOT&color=blue-green"></a> 
 </p>
 
 
