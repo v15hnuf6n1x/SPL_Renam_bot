@@ -4,7 +4,7 @@
   <img src="https://your_image_url_here" alt="Project Logo" width="200">
 </div>
 
-<h1 align="center">METADATAEDITOR</h1>
+<h1 align="center">METADATA EDITOR</h1>
 
 <p align="center">
   <strong>Brief description of your project.</strong>
