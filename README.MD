@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://your_image_url_here" alt="Project Logo" width="200">
+  <img src="https://graph.org/file/cd03475b00fdf79ff17b3.jpg" alt="Project Logo" width="200">
 </div>
 
 <h1 align="center">METADATA EDITOR</h1>
