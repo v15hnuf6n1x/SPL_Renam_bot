@@ -11,14 +11,14 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/V15hnuf6n1off/yourproject/stargazers">
-    <img src="https://img.shields.io/github/stars/v15hnuf6n1off/yourproject.svg" alt="GitHub stars">
+  <a href="https://github.com/V15hnuf6n1off/Rename_bot/stargazers">
+    <img src="https://img.shields.io/github/stars/v15hnuf6n1off/Rename_bot" alt="GitHub stars">
   </a>
-  <a href="https://github.com/v15hnuf6n1off/yourproject/network">
-    <img src="https://img.shields.io/github/forks/v15hnuf6n1off/yourproject.svg" alt="GitHub forks">
+  <a href="https://github.com/v15hnuf6n1off/Rename_bot/network">
+    <img src="https://img.shields.io/github/forks/v15hnuf6n1off/Rename_bot" alt="GitHub forks">
   </a>
-  <a href="https://github.com/v15hnuf6n1off/yourproject/issues">
-    <img src="https://img.shields.io/github/issues/v15hnuf6n1off/yourproject.svg" alt="GitHub issues">
+  <a href="https://github.com/v15hnuf6n1off/Rename_bot/issues">
+    <img src="https://img.shields.io/github/issues/v15hnuf6n1off/Rename_bot.svg" alt="GitHub issues">
   </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
