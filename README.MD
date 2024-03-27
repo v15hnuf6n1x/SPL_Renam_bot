@@ -1,3 +1,7 @@
+<div style="color:red"> 
+--- 
+</div>
+
 <div align="center">
   <img src="https://your_image_url_here" alt="Project Logo" width="200">
 </div>
