@@ -39,40 +39,54 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b>Hᴀɪ {} 👋,
-Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ \nYᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ \nYᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ \nTʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+    START_TXT = """✨ **Welcome, {}!** 👋
+
+---
+
+🌟 **Advanced Rename Bot** 🌟
+
+🔄 This bot allows you to **rename files** and **change their thumbnails** with ease.
+
+📦 You can also **convert videos to files** and **files to videos**, providing maximum flexibility.
+
+🖼️ **Custom Thumbnails** and **Custom Captions** are fully supported, allowing you to personalize your content.
+
+---
+
+Start exploring the powerful features and let the renaming magic happen! ✨
 """
 
-    ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ   : {}
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/v15hnuf6n1x>MR</a> 
-├☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/mr_v_bots>MR_v_bots</a>
-├📕 Lɪʙʀᴀʀy   : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
-├✏️ Lᴀɴɢᴜᴀɢᴇ  : <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ : <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
-├🌀 ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>
-╰───────────────⍟ """
+    ABOUT_TXT = """╭━━━───[ 🌟 𝔸𝕓𝕠𝕦𝕥 𝕄𝕖 🌟 ]───━━━╮
+┃ 
+┃ 🤖 𝕄𝕪 𝕟𝕒𝕞𝕖    : {}
+┃ 👨‍💻 ℙ𝕣𝕠𝕘𝕣𝕒𝕞𝕞𝕖𝕣  : <a href="https://t.me/v15hnuf6n1x">𝕄ℝ</a>
+┃ ❄️ 𝔽𝕠𝕦𝕟𝕕𝕖𝕣 𝕠𝕗  : <a href="https://t.me/mr_v_bots">𝕄𝕣_𝕧_𝕓𝕠𝕥𝕤</a>
+┃ 📚 𝕃𝕚𝕓𝕣𝕒𝕣𝕪   : <a href="https://github.com/pyrogram">ℙ𝕪𝕣𝕠𝕘𝕣𝕒𝕞</a>
+┃ 🖋️ 𝕃𝕒𝕟𝕘𝕦𝕒𝕘𝕖  : <a href="https://www.python.org">ℙ𝕪𝕥𝕙𝕠𝕟 𝟛</a>
+┃ 💾 𝔻𝕒𝕥𝕒𝕓𝕒𝕤𝕖  : <a href="https://cloud.mongodb.com">𝕄𝕠𝕟𝕘𝕠 𝔻𝔹</a>
+┃ ☁️ 𝕄𝕪 𝕊𝕖𝕣𝕧𝕖𝕣   : <a href="https://dashboard.heroku.com">ℍ𝕖𝕣𝕠𝕜𝕦</a>
+┃ 
+╰━━━━━━[ 𝔽𝕠𝕣 𝕄𝕠𝕣𝕖 𝕀𝕟𝕗𝕠 ]━━━━━━╯
+ """
 
     HELP_TXT = """
-🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ</u></b>
-  
-<b>•></b> /start Tʜᴇ Bᴏᴛ Aɴᴅ Sᴇɴᴅ Aɴy Pʜᴏᴛᴏ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟy Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ.
-<b>•></b> /del_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴᴀɪʟ.
-<b>•></b> /view_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ.
+🌌 **How to Set a Thumbnail**
 
+1. **Start the Bot**: Use the `/start` command, then send any photo to automatically set it as your thumbnail.
+2. **Delete Thumbnail**: Use `/del_thumb` to remove your current thumbnail.
+3. **View Thumbnail**: Use `/view_thumb` to see your existing thumbnail.
 
-📑 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ</u></b>
+📑 **How to Set a Custom Caption**
 
-<b>•></b> /set_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ ᴀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-<b>•></b> /see_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-<b>•></b> /del_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
-💾 Sɪᴢᴇ: {filesize}
-⏰ Dᴜʀᴀᴛɪᴏɴ: {duration} </code>
+1. **Set a Custom Caption**: Use `/set_caption` to create a personalized caption for your files.
+2. **See Custom Caption**: Use `/see_caption` to view your current custom caption.
+3. **Delete Custom Caption**: Use `/del_caption` to remove your custom caption.
 
-✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
-<b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-
+   Example for setting a caption:
+   ```markdown
+   /set_caption 📕 File Name: {filename}
+   💾 Size: {filesize}
+   ⏰ Duration: {duration}
 """
 
     SEND_METADATA = """
