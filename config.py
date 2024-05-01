@@ -99,10 +99,14 @@ Start exploring the powerful features and let the renaming magic happen! ✨
 📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @c0nt4ct_bot
 """
 
-    PROGRESS_BAR = """<b>\n
-╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
-┣⪼ 🗃️ Sɪᴢᴇ: {1} | {2}
-┣⪼ ⏳️ Dᴏɴᴇ : {0}%
-┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
-┣⪼ ⏰️ Eᴛᴀ: {4}
-╰━━━━━━━━━━━━━━━➣ </b>"""
+    PROGRESS_BAR = """<b>
+╭━━━━━❰ 𝙋𝙧𝙤𝙜𝙧𝙚𝙨𝙨 𝘽𝙖𝙧 ❱━━━━━➣
+┃ 
+┣⪼ 📦 **Size**     : {1} / {2}
+┣⪼ ⏳️ **Completed**: {0}%
+┣⪼ 🚀 **Speed**    : {3}/s
+┣⪼ ⏰️ **ETA**      : {4}
+┃ 
+╰━━━━━━━━━━━━━━━━━━━➣
+</b>
+"""
