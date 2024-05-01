@@ -33,11 +33,33 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
             pass
 
 
+#def generate_progress_bar(percentage):
+#    return (
+#        "".join(["█" for _ in range(math.floor(percentage / 5))])
+#        + "".join(["▒" for _ in range(20 - math.floor(percentage / 5))])
+#    )
+
+import math
 def generate_progress_bar(percentage):
-    return (
-        "".join(["█" for _ in range(math.floor(percentage / 5))])
-        + "".join(["▒" for _ in range(20 - math.floor(percentage / 5))])
-    )
+    # Ensure percentage is within 0-100
+    percentage = max(0, min(100, percentage)) 
+    # Determine the total number of blocks for the progress bar
+    total_blocks = 20 
+    # Determine how many blocks should be filled for the given percentage
+    filled_blocks = math.floor(percentage / (100 / total_blocks)) 
+    # Create the bar with different characters depending on the percentage range
+    if percentage <= 25:
+        bar = "".join(["░" for _ in range(filled_blocks)]) + "".join([" " for _ in range(total_blocks - filled_blocks)])
+    elif percentage <= 50:
+        bar = "".join(["▒" for _ in range(filled_blocks)]) + "".join([" " for _ in range(total_blocks - filled_blocks)])
+    elif percentage <= 75:
+        bar = "".join(["▓" for _ in range(filled_blocks)]) + "".join([" " for _ in range(total_blocks - filled_blocks)])
+    else:
+        bar = "".join(["█" for _ in range(filled_blocks)]) + "".join([" " for _ in range(total_blocks - filled_blocks)])
+    
+    # Add percentage at the end of the bar for reference
+    return f"[{bar}] {percentage:.2f}%"
+
 
 
 def calculate_times(diff, current, total, speed):
