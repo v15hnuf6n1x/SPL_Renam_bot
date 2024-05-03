@@ -85,7 +85,7 @@ broadcast - Send Message To All Users (Admin Only)
 
 
 
- href="https://github.com/V15hnuf6n1off/Rename_bot/stargazers">
+<a> href="https://github.com/V15hnuf6n1off/Rename_bot/stargazers">
     <img src="https://img.shields.io/github/stars/v15hnuf6n1off/Rename_bot" alt="GitHub stars">
   </a>
   <a href="https://github.com/v15hnuf6n1off/Rename_bot/network">
