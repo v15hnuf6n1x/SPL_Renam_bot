@@ -70,19 +70,21 @@ Start exploring the powerful features and let the renaming magic happen! ✨
  """
 
     CMD_LIST="""
-\start - Bot Alive Checking
-\view_thumb - View Thumbnail
-\del_thumb - Delete Thumbnail
-\set_caption - Set A Custom Caption
-\see_caption - See Your Custom Caption
-\del_caption - Delete Custom Caption
-\metadata - To Set & Change your metadata code
-\set_prefix - To Set Your Prefix
-\del_prefix - Delete Your Prefix
-\see_prefix - To See Your Prefix
-\set_suffix - To Set Your Suffix
-\see_suffix - To See Your Suffix
-\del_suffix - Delete Your Suffix"""
+/start - Aʟɪᴠᴇ Cʜᴇᴄᴋɪɴɢ 
+/view_thumbᴠɪᴇᴡ -Vɪᴇᴡ Tʜᴜᴍʙɴᴀɪʟ 
+/del_thumb - Dᴇʟᴇᴛᴇ Tʜᴜᴍʙɴᴀɪʟ 
+/set_caption - Sᴇᴛ A Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ 
+/see_caption - Sᴇᴇ Yᴏᴜʀ CᴜsᴛᴏᴍCᴀᴘᴛɪᴏɴ 
+/del_caption - Dᴇʟᴇᴛᴇ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ 
+/metadata - Tᴏ Sᴇᴛ & Cʜᴀɴɢᴇ ʏᴏᴜʀ ᴍᴇᴛᴀᴅᴀᴛᴀ ᴄᴏᴅᴇ 
+/set_prefix - Tᴏ Sᴇᴛ Yᴏᴜʀ Pʀᴇғɪx 
+/del_prefix - Dᴇʟᴇᴛᴇ Yᴏᴜʀ Pʀᴇғɪx 
+/see_prefix - Tᴏ Sᴇᴇ Yᴏᴜʀ Pʀᴇғɪx
+/set_suffix - Tᴏ Sᴇᴛ Yᴏᴜʀ Sᴜғғɪx 
+/see_suffix - Tᴏ Sᴇᴇ Yᴏᴜʀ Sᴜғғɪx 
+/del_suffix - Dᴇʟᴇᴛᴇ Yᴏᴜʀ Sᴜғғɪx
+/help
+"""
 
 
 
