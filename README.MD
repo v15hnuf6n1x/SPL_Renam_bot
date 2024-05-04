@@ -68,11 +68,7 @@ status - Check Bot Status (Admin Only)
 broadcast - Send Message To All Users (Admin Only)
 ```
 
-
-
-## CREATED BY 
-- **MR_V**
-- A SPECIAL THANKS TO **Snowball** 
+ 
 
 </div>
 
@@ -91,37 +87,37 @@ broadcast - Send Message To All Users (Admin Only)
 ## Deploy To Render              
 
 <div align="center">
-  <a href="#" onclick="toggleVisibility('renderDeploy')">
+  <a href="https://render.com/deploy?repo=https://github.com/v15hnuf6n1off/Rename_Bo" onclick="toggleVisibility('renderDeploy')">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
   </a>
 </div>
 
 <div id="renderDeploy" style="display: none;">
-  <p>Render deployment guide here...</p>
+  <p></p>
 </div>
 
 ## Deploy To Railway
 
 <div align="center">
-  <a href="#" onclick="toggleVisibility('railwayDeploy')">
+  <a href="https://railway.app/new/template?template=https://github.com/v15hnuf6n1off/Rename_Bot" onclick="toggleVisibility('railwayDeploy')">
     <img src="https://railway.app/button.svg" alt="Deploy to Railway">
   </a>
 </div>
 
 <div id="railwayDeploy" style="display: none;">
-  <p>Railway deployment guide here...</p>
+  <p></p>
 </div>
 
 ## Deploy To Heroku
 
 <div align="center">
-  <a href="#" onclick="toggleVisibility('herokuDeploy')">
+  <a href="https://heroku.com/deploy?template=https://github.com/v15hnuf6n1off/Rename_Bot" onclick="toggleVisibility('herokuDeploy')">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
 </div>
 
 <div id="herokuDeploy" style="display: none;">
-  <p>Heroku deployment guide here...</p>
+  <p></p>
 </div>
 
 <script>
@@ -137,6 +133,12 @@ broadcast - Send Message To All Users (Admin Only)
 
 ## Contributions
 <span style="font-size: 18px;">Contributions and suggestions are welcome! Feel free to fork the repository and submit pull requests.</span>
+
+
+
+## CREATED BY 
+- **MR_V**
+- A SPECIAL THANKS TO **Snowball**
 
 ## License
 <span style="font-size: 18px;">This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</span>
