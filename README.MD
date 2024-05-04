@@ -120,17 +120,6 @@ broadcast - Send Message To All Users (Admin Only)
   <p></p>
 </div>
 
-<script>
-  function toggleVisibility(id) {
-    var element = document.getElementById(id);
-    if (element.style.display === "none") {
-      element.style.display = "block";
-    } else {
-      element.style.display = "none";
-    }
-  }
-</script>
-
 ## Contributions
 <span style="font-size: 18px;">Contributions and suggestions are welcome! Feel free to fork the repository and submit pull requests.</span>
 
