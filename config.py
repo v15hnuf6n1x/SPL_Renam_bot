@@ -63,8 +63,8 @@ Start exploring the powerful features and let the renaming magic happen! ✨
 ┃ ❄️ 𝔽𝕠𝕦𝕟𝕕𝕖𝕣 𝕠𝕗  : <a href="https://t.me/mr_v_bots">𝕄𝕣_𝕧_𝕓𝕠𝕥𝕤</a>
 ┃ 📚 𝕃𝕚𝕓𝕣𝕒𝕣𝕪   : <a href="https://github.com/pyrogram">ℙ𝕪𝕣𝕠𝕘𝕣𝕒𝕞</a>
 ┃ 🖋️ 𝕃𝕒𝕟𝕘𝕦𝕒𝕘𝕖  : <a href="https://www.python.org">ℙ𝕪𝕥𝕙𝕠𝕟 𝟛</a>
-┃ 💾 𝔻𝕒𝕥𝕒𝕓𝕒𝕤𝕖  : <a href="https://cloud.mongodb.com">𝕄𝕠𝕟𝕘𝕠 𝔻𝔹</a>
-┃ ☁️ 𝕄𝕪 𝕊𝕖𝕣𝕧𝕖𝕣   : <a href="https://dashboard.heroku.com">ℍ𝕖𝕣𝕠𝕜𝕦</a>
+┃ 💾 𝔻𝕒𝕥𝕒𝕓𝕒𝕤𝕖   : <a href="https://cloud.mongodb.com">𝕄𝕠𝕟𝕘𝕠 𝔻𝔹</a>
+┃ ☁️ 𝕄𝕪 𝕊𝕖𝕣𝕧𝕖𝕣  : <a href="https://dashboard.heroku.com">ℍ𝕖𝕣𝕠𝕜𝕦</a>
 ┃ 
 ╰━━━━━━[ 𝔽𝕠𝕣 𝕄𝕠𝕣𝕖 𝕀𝕟𝕗𝕠 ]━━━━━━╯
  """
