@@ -69,6 +69,25 @@ Start exploring the powerful features and let the renaming magic happen! ✨
 ╰━━━━━━[ 𝔽𝕠𝕣 𝕄𝕠𝕣𝕖 𝕀𝕟𝕗𝕠 ]━━━━━━╯
  """
 
+    CMD_LIST="""
+\start - Bot Alive Checking
+\view_thumb - View Thumbnail
+\del_thumb - Delete Thumbnail
+\set_caption - Set A Custom Caption
+\see_caption - See Your Custom Caption
+\del_caption - Delete Custom Caption
+\metadata - To Set & Change your metadata code
+\set_prefix - To Set Your Prefix
+\del_prefix - Delete Your Prefix
+\see_prefix - To See Your Prefix
+\set_suffix - To Set Your Suffix
+\see_suffix - To See Your Suffix
+\del_suffix - Delete Your Suffix"""
+
+
+
+
+    
     HELP_TXT = """
 🌌 **How to Set a Thumbnail**
 
