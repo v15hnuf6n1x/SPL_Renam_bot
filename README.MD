@@ -6,13 +6,13 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-#  RENAME_BOT
+
 
 
 ### **RENAMER** (metadata editor)
 
 <p align="center">
-<a href="https://t.me/a1p_video_merger_bot"><img title="Telegram" src="https://img.shields.io/static/v1?label=R3n4mer&message=BOT&color=blue-green"></a> 
+<a href="https://t.me/Mr_V_bots"><img title="Telegram" src="https://img.shields.io/static/v1?label=Mr_V_&message=Bots&color=blue-green"></a> 
 </p>
 
 
