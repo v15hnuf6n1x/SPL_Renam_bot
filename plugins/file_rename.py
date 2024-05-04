@@ -83,7 +83,7 @@ async def doc(bot, update):
     new_name = update.message.text
     new_filen = new_name.split(":-")[1]
     new_filename_ = new_filen.replace("_"," ")
-    print("filename after replacing _ :",new_filename)
+    print("filename after replacing _ :",new_filename_)
 
     try:
         # adding prefix and suffix
