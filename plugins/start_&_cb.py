@@ -43,7 +43,7 @@ async def rename_start(client, message):
     try:
         text = f"""**__What do you want me to do with this file.?__**\n\n**📁File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
         buttons = [[InlineKeyboardButton("𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 ✏ ", callback_data="rename")],
-                   [InlineKeyboardButton("✖𝙲𝙰𝙽𝙲𝙴𝙻 ❌", callback_data="close")]]
+                   [InlineKeyboardButton("𝙲𝙰𝙽𝙲𝙴𝙻 ❌", callback_data="close")]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except FloodWait as e:
         await sleep(e.value)
