@@ -82,13 +82,14 @@ async def doc(bot, update):
     suffix = await db.get_suffix(update.message.chat.id)
     new_name = update.message.text
     new_filename_ = new_name.split(":-")[1]
+    new_filename_ = new_filename.replace("_"," ")
 
     try:
         # adding prefix and suffix
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
 
     except Exception as e:
-        return await update.message.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n❄Contact My Creator -> @c0nt4ct_bot\nError: {e}")
+        return await update.message.edit(f"⚠️ Something went wrong, can't able to set Prefix or Suffix ☹️ \n\n❄Contact My Admin -> @c0nt4ct_bot\nError: {e}")
 
     file_path = f"downloads/{new_filename}"
     file = update.message.reply_to_message
