@@ -16,17 +16,7 @@
 </p>
 
 
-## Deploy To Render              
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/v15hnuf6n1off/Rename_Bot)
-
-## Deploy To Railway
-
-<a href="https://graph.org/file/fabd75cd5043d2cfdc13d.jpg"><img src="https://railway.app/button.svg" alt="Deploy"></a>
-
-## Deploy To Heroku
-
-<a href="https://heroku.com/deploy?template=https://github.com/v15hnuf6n1off/Rename_Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 
 
@@ -97,6 +87,53 @@ broadcast - Send Message To All Users (Admin Only)
 2. <span style="font-size: 18px;">Set up environment variables as per the provided configurations.</span>
 3. <span style="font-size: 18px;">Deploy the bot to your preferred platform using the provided deployment options.</span>
 4. <span style="font-size: 18px;">Interact with the bot using the listed Botfather commands to enjoy metadata editing functionalities.</span>
+
+## Deploy To Render              
+
+<div align="center">
+  <a href="#" onclick="toggleVisibility('renderDeploy')">
+    <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+  </a>
+</div>
+
+<div id="renderDeploy" style="display: none;">
+  <p>Render deployment guide here...</p>
+</div>
+
+## Deploy To Railway
+
+<div align="center">
+  <a href="#" onclick="toggleVisibility('railwayDeploy')">
+    <img src="https://railway.app/button.svg" alt="Deploy to Railway">
+  </a>
+</div>
+
+<div id="railwayDeploy" style="display: none;">
+  <p>Railway deployment guide here...</p>
+</div>
+
+## Deploy To Heroku
+
+<div align="center">
+  <a href="#" onclick="toggleVisibility('herokuDeploy')">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
+  </a>
+</div>
+
+<div id="herokuDeploy" style="display: none;">
+  <p>Heroku deployment guide here...</p>
+</div>
+
+<script>
+  function toggleVisibility(id) {
+    var element = document.getElementById(id);
+    if (element.style.display === "none") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  }
+</script>
 
 ## Contributions
 <span style="font-size: 18px;">Contributions and suggestions are welcome! Feel free to fork the repository and submit pull requests.</span>
