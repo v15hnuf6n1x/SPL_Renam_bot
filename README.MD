@@ -74,7 +74,7 @@ broadcast - Send Message To All Users (Admin Only)
 
 ## Deploy To Render              
 
-<div align="center">
+<div align="left">
   <a href="https://render.com/deploy?repo=https://github.com/v15hnuf6n1off/Rename_Bo" onclick="toggleVisibility('renderDeploy')">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
   </a>
@@ -86,7 +86,7 @@ broadcast - Send Message To All Users (Admin Only)
 
 ## Deploy To Railway
 
-<div align="center">
+<div align="left">
   <a href="https://railway.app/new/template?template=https://github.com/v15hnuf6n1off/Rename_Bot" onclick="toggleVisibility('railwayDeploy')">
     <img src="https://railway.app/button.svg" alt="Deploy to Railway">
   </a>
@@ -98,7 +98,7 @@ broadcast - Send Message To All Users (Admin Only)
 
 ## Deploy To Heroku
 
-<div align="center">
+<div align="left">
   <a href="https://heroku.com/deploy?template=https://github.com/v15hnuf6n1off/Rename_Bot" onclick="toggleVisibility('herokuDeploy')">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
