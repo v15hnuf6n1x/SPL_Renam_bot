@@ -41,7 +41,7 @@ class Txt(object):
     # part of text configuration
     START_TXT = """✨ **Welcome, {}!** 👋
 
----
+
 
 🌟 **Advanced Rename Bot** 🌟
 
@@ -51,7 +51,7 @@ class Txt(object):
 
 🖼️ **Custom Thumbnails** and **Custom Captions** are fully supported, allowing you to personalize your content.
 
----
+
 
 Start exploring the powerful features and let the renaming magic happen! ✨
 """
@@ -72,19 +72,20 @@ Start exploring the powerful features and let the renaming magic happen! ✨
     HELP_TXT = """
 🌌 **How to Set a Thumbnail**
 
-1. **Start the Bot**: Use the `/start` command, then send any photo to automatically set it as your thumbnail.
-2. **Delete Thumbnail**: Use `/del_thumb` to remove your current thumbnail.
-3. **View Thumbnail**: Use `/view_thumb` to see your existing thumbnail.
+1. **Start the Bot**: Use the /start command, then send any photo to automatically set it as your thumbnail.
+\n2. **Delete Thumbnail**: Use /del_thumb to remove your current thumbnail.
+\n3. **View Thumbnail**: Use /view_thumb to see your existing thumbnail.
 
 📑 **How to Set a Custom Caption**
 
-1. **Set a Custom Caption**: Use `/set_caption` to create a personalized caption for your files.
-2. **See Custom Caption**: Use `/see_caption` to view your current custom caption.
-3. **Delete Custom Caption**: Use `/del_caption` to remove your custom caption.
+1. **Set a Custom Caption**: Use /set_caption to create a personalized caption for your files.
+\n2. **See Custom Caption**: Use /see_caption to view your current custom caption.
+\n3. **Delete Custom Caption**: Use /del_caption to remove your custom caption.
 
-   Example for setting a caption:
+**Example for setting a caption:**
    ```markdown
-   /set_caption 📕 File Name: {filename}
+   /set_caption 
+   📕 File Name: {filename}
    💾 Size: {filesize}
    ⏰ Duration: {duration}
 """
@@ -99,12 +100,15 @@ Start exploring the powerful features and let the renaming magic happen! ✨
 📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @c0nt4ct_bot
 """
 
-    PROGRESS_BAR = """<b>
+    PROGRESS_BAR = """<b>\n
 ╭━━━━━❰ 𝙋𝙧𝙤𝙜𝙧𝙚𝙨𝙨 𝘽𝙖𝙧 ❱━━━━━➣
 ┃ 
 ┣⪼ 📦 **Size**     : {1} / {2}
+┃ 
 ┣⪼ ⏳️ **Completed**: {0}%
+┃ 
 ┣⪼ 🚀 **Speed**    : {3}/s
+┃ 
 ┣⪼ ⏰️ **ETA**      : {4}
 ┃ 
 ╰━━━━━━━━━━━━━━━━━━━➣
