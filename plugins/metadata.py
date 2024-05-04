@@ -5,9 +5,9 @@ from pyromod.exceptions import ListenerTimeout
 from config import Txt
 
 
-ON = [[InlineKeyboardButton('Metadata On ✅', callback_data='metadata_1')], [
+ON = [[InlineKeyboardButton('Enabled ✅', callback_data='metadata_1')], [
     InlineKeyboardButton('Set Custom Metadata', callback_data='cutom_metadata')]]
-OFF = [[InlineKeyboardButton('Metadata Off ❌', callback_data='metadata_0')], [
+OFF = [[InlineKeyboardButton('Disabled ❌', callback_data='metadata_0')], [
     InlineKeyboardButton('Set Custom Metadata', callback_data='cutom_metadata')]]
 
 
@@ -20,9 +20,9 @@ async def handle_metadata(bot: Client, message: Message):
     await ms.delete()
     if bool_metadata:
 
-        return await message.reply_text(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(ON))
+        return await message.reply_text(f"**📛Your Current Metadata Is:-**\n\n `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(ON))
 
-    return await message.reply_text(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(OFF))
+    return await message.reply_text(f"**📛Your Current Metadata Is:-**\n\n `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(OFF))
 
 
 @Client.on_callback_query(filters.regex('.*?(custom_metadata|metadata).*?'))
@@ -36,11 +36,11 @@ async def query_metadata(bot: Client, query: CallbackQuery):
 
         if bool(eval(_bool)):
             await db.set_metadata(query.from_user.id, bool_meta=False)
-            await query.message.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(OFF))
+            await query.message.edit(f"**📛Your Current Metadata Is:-**\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(OFF))
 
         else:
             await db.set_metadata(query.from_user.id, bool_meta=True)
-            await query.message.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(ON))
+            await query.message.edit(f"**📛Your Current Metadata Is:-**\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(ON))
 
     elif data == 'cutom_metadata':
         await query.message.delete()
