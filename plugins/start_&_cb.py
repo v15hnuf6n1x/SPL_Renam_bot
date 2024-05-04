@@ -42,15 +42,15 @@ async def rename_start(client, message):
             return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
 
     try:
-        text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename")],
-                   [InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="close")]]
+        text = f"""**__What do you want me to do with this file.?__**\n\n**📁File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
+        buttons = [[InlineKeyboardButton("𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 ✏ ", callback_data="rename")],
+                   [InlineKeyboardButton("✖𝙲𝙰𝙽𝙲𝙴𝙻 ❌", callback_data="close")]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except FloodWait as e:
         await sleep(e.value)
-        text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename")],
-                   [InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="close")]]
+        text = f"""**__What do you want me to do with this file.?__**\n\n**📁File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
+        buttons = [[InlineKeyboardButton("𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 ✏ ", callback_data="rename")],
+                   [InlineKeyboardButton("𝙲𝙰𝙽𝙲𝙴𝙻 ❌", callback_data="close")]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
         pass
@@ -65,9 +65,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kdramaland'),
+                    '🔔 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/mr_v_bots'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SnowDevs')
+                    '🌨 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+MviX9PK66y4yZTBl')
             ], [
                 InlineKeyboardButton('🌐 Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
