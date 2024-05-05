@@ -79,9 +79,7 @@ async def main():
             bot_instance.start()  # Start the bot instance
         )
     else:
-        await asyncio.gather(
-            bot_instance.start()
-        )
+        await bot_instance.start()
 
 if __name__ == "__main__":
     warnings.filterwarnings("ignore", message="There is no current event loop")
