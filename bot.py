@@ -92,7 +92,7 @@ def main():
 #        if Config.STRING_SESSION:
 #            await asyncio.gather(
 #                app.start(),        # Start #the Pyrogram Client
-                bot_instance.start()  # Start #the bot instance
+               # bot_instance.start()  # Start #the bot instance
 #            )
 #        else:
 #            await asyncio.gather(
