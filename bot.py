@@ -72,20 +72,21 @@ class Bot(Client):
 
 bot_instance = Bot()
 
-def main():
-    async def start_services():
-        if Config.STRING_SESSION:
-            await asyncio.gather(
-                app.start(),        # Start the Pyrogram Client
-                bot_instance.start()  # Start the bot instance
-            )
-        else:
-            await asyncio.gather(
-                bot_instance.start()
-            )
+async def main():
+    if Config.STRING_SESSION:
+        await asyncio.gather(
+            app.start(),        # Start the Pyrogram Client
+            bot_instance.start()  # Start the bot instance
+        )
+    else:
+        await asyncio.gather(
+            bot_instance.start()
+        )
 
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(start_services())
+if __name__ == "__main__":
+    warnings.filterwarnings("ignore", message="There is no current event loop")
+    asyncio.run(main())
+
 
 #def main():
 #    async def start_services():
