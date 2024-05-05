@@ -107,7 +107,3 @@ if __name__ == "__main__":
 #if __name__ == "__main__":
 #    warnings.filterwarnings("ignore", #message="There is no current event loop")
 #    main()
-
-if __name__ == "__main__":
-    warnings.filterwarnings("ignore", message="There is no current event loop")
-    main()
