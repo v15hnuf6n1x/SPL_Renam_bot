@@ -91,4 +91,4 @@ bot_instance = Bot()
 
 if __name__ == "__main__":
     warnings.filterwarnings("ignore", message="There is no current event loop")
-    bot()
+    Bot()
