@@ -22,7 +22,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            name="SnowRenamer",
+            name="Mr_V_bots",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
@@ -73,22 +73,22 @@ class Bot(Client):
 
 bot_instance = Bot()
 
-def main():
-    async def start_services():
-        if Config.STRING_SESSION:
-            await asyncio.gather(
-                app.start(),        # Start the Pyrogram Client
-                bot_instance.start()  # Start the bot instance
-            )
-        else:
-            await asyncio.gather(
-                bot_instance.start()
-            )
-        
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(start_services())
-    loop.run_forever()
+#def main():
+#    async def start_services():
+#        if Config.STRING_SESSION:
+#            await asyncio.gather(
+#                app.start(),        # Start the Pyrogram Client
+#                bot_instance.start()  # Start the bot instance
+#            )
+#        else:
+#            await asyncio.gather(
+#                bot_instance.start()
+#            )
+#        
+#    loop = asyncio.get_event_loop()
+#    #loop.run_until_complete(start_services())
+#    loop.run_forever()
 
 if __name__ == "__main__":
     warnings.filterwarnings("ignore", message="There is no current event loop")
-    main()
+    bot()
