@@ -90,5 +90,5 @@ bot_instance = Bot()
 #    loop.run_forever()
 
 if __name__ == "__main__":
-    warnings.filterwarnings("ignore", message="There is no current event loop")
-    Bot()
+    asyncio.get_event_loop().run_until_complete(bot_instance.start())
+    idle()
