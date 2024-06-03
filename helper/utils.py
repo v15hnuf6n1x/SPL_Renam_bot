@@ -55,7 +55,7 @@ def generate_progress_bar(percentage):
     elif percentage <= 75:
         bar = "".join(["▓" for _ in range(filled_blocks)]) + "".join([" " for _ in range(total_blocks - filled_blocks)])
     else:
-        bar = "".join(["🟩" for _ in range(filled_blocks)]) + "".join([" " for _ in range(total_blocks - filled_blocks)])
+        bar = "".join(["█" for _ in range(filled_blocks)]) + "".join([" " for _ in range(total_blocks - filled_blocks)])
     
     # Add percentage at the end of the bar for reference
     return f"[{bar}] {percentage:.2f}%"
