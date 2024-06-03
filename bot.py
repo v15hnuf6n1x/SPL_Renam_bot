@@ -47,7 +47,7 @@ class Bot(Client):
                 self.force_channel = None
         app = web.AppRunner(await web_server())
         await app.setup()
-        bind_address = "0.0.0.0"
+        bind_address = Config.BASE_URL
         await web.TCPSite(app, bind_address, Config.PORT).start()
         logging.info(f"{me.first_name} ✅✅ BOT started successfully ✅✅")
 
