@@ -20,6 +20,8 @@ class Config(object):
     DB_NAME = os.environ.get("DB_NAME", "")
     DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
 
+    BASE_URL = os.environ.get("BASE_URL", "")
+
     # other configs
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "")
