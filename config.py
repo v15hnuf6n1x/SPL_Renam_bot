@@ -20,7 +20,6 @@ class Config(object):
     DB_NAME = os.environ.get("DB_NAME", "")
     DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
 
-    BASE_URL = os.environ.get("BASE_URL", "")
 
     # other configs
     BOT_UPTIME = time.time()
@@ -36,7 +35,7 @@ class Config(object):
 
     # wes response configuration
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
-    PORT = int(os.environ.get("PORT", "8080"))
+    PORT = int(os.environ.get("PORT", "5437"))
 
 
 class Txt(object):
